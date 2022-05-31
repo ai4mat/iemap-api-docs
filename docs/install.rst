@@ -1,4 +1,4 @@
-Install
+How to install
 ================
 
 Get the code
@@ -24,7 +24,8 @@ Make some configurations
 
 You first need to setup configurations into the environments file. Copy the :code:`env.sample` into :code:`.env` and edit this file for each variable.
 
-Start for development
+
+Run on local machine
 ---------------------
 
 
@@ -80,8 +81,8 @@ Start for development
 
 
 
-Run as container (Production)
-------------------------------
+Run as container 
+-----------------
 
 * 0 - Prerequisites
     In the following we are assuming that you can manage docker with a non-root user. To do so, run the following commands:
@@ -99,7 +100,8 @@ Run as container (Production)
 
     .. code-block:: bash
         
-        export HOST_FILESDIR=<absoloute path where uploaded files are stored>
+        export HOST_FILESDIR=<absoloute path where uploaded files are stored on host>
+        export FILESDIR=<path where files are stored inside the container>
 
 
     to set this variable both inside and outside container.
@@ -275,7 +277,7 @@ Check API
     .. code-block:: json
 
         {
-        "request_method": "GET",
-        "path_name": "",
-        "message": "Reply from IEMAP API at <current time and date>"
+            "request_method": "GET",
+            "path_name": "",
+            "message": "Reply from IEMAP API at <current time and date>"
         }
