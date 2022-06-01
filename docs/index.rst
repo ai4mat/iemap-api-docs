@@ -12,6 +12,7 @@ The IEMAP API is a set of Python modules that provide a unified interface to the
    :maxdepth: 1
    :caption: Project Informations
 
+   whyapi
    datalake
 
 
@@ -28,6 +29,7 @@ The IEMAP API is a set of Python modules that provide a unified interface to the
    :caption: For Developers
 
    install
+   contributes
 
 .. warning::
    The API is still in development, and the documentation is not complete.
