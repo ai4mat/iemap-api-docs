@@ -22,6 +22,7 @@ The IEMAP API is a set of Python modules that provide a unified interface to the
    :caption: For Users
 
    apiuser
+   metadata
 
 
 .. toctree::
