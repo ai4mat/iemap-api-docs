@@ -36,10 +36,10 @@ The IEMAP API is a set of Python modules that provide a unified interface to the
    The API is still in development, and the documentation is not complete.
 
 
-..
-   Indices and tables
-   ==================
 
-   * :ref:`genindex`
-   * :ref:`modindex`
-   * :ref:`search`
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
