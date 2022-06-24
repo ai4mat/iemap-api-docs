@@ -9,13 +9,13 @@ First of all you need to get the code:
 
 .. code-block:: bash
 
-    git clone https://github.com/ai4mat/mi-api.git
+    git clone https://github.com/ai4mat/iemap-api.git
 
 and jump to its folder:
 
 .. code-block:: bash
 
-    cd mi-api
+    cd iemap-api
 
 
 Make some configurations

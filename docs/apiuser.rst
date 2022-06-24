@@ -8,7 +8,7 @@ If you are not in the user group, you can register for at the endpoint:
 
 .. code-block:: shell-session
 
-    https://api.iemap.com/v1/register
+    https://ai4mat.enea.it/v1/register
 
 
 providing the following informations:
@@ -36,7 +36,7 @@ If you have a verified user, you can login at the endpoint:
 
 .. code-block:: shell-session
 
-    https://api.iemap.com/v1/login
+    https://ai4mat.enea.it/v1/login
 
 providing `username` and `password`, or by clicking the `Authorize` button on the website, filling in with the same informations.
 
