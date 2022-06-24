@@ -22,7 +22,7 @@ copyright = '2022, ENEA'
 author = 'Sergio Ferlito, Marco Puccini, Claudio Ronchetti'
 
 # The full version, including alpha/beta/rc tags
-release = '1.1.0'
+release = '1.1.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -54,4 +54,4 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = '_static/iemap_logo_nobg.png'
 
-autoapi_dirs = ['../mi-api']
+autoapi_dirs = ['../iemap-api']
