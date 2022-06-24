@@ -96,15 +96,20 @@ Run as container
     You had created the :code:`docker` group first and then added your user to it. This way now you can build, run and stop containers with your user, without worrying about :code:`sudo`.
 
 * 1 - Configuration
-    Add this to your server :code:`.bashrc` or :code:`.profile`:
+    Into the :code:`.env` file, you need to set:
 
     .. code-block:: bash
-        
-        export HOST_FILESDIR=<absoloute path where uploaded files are stored on host>
-        export FILESDIR=<path where files are stored inside the container>
+    
+        FILESDIR=data
 
+    
+    That is the default folder inside the container to store files. That folder is created automatically when you build the container, and mounted automatically when you run it with the external host folder specified as the following:
 
-    to set this variable both inside and outside container.
+    .. code-block:: bash
+
+        export HOST_FILESDIR=<absoloute path where uploaded files are stored>
+
+    You may prefer to store this into the :code:`.bashrc` or :code:`.profile`.
 
 * 2 - Build image and run container
     Run the following command to build the image and run the container:
