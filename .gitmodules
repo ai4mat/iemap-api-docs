@@ -1,3 +1,3 @@
-[submodule "mi-api"]
-	path = mi-api
-	url = https://github.com/ai4mat/mi-api.git
+[submodule "iemap-api"]
+	path = iemap-api
+	url = https://github.com/ai4mat/iemap-api.git
