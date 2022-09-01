@@ -32,6 +32,12 @@ The IEMAP API is a set of Python modules that provide a unified interface to the
    install
    contributes
 
+.. toctree::
+   :maxdepth: 1
+   :caption: For Parterns
+
+   getstart_partner
+
 .. warning::
    The API is still in development, and the documentation is not complete.
 
