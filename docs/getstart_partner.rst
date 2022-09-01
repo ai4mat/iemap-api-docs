@@ -92,18 +92,7 @@ The list of the structure's fields is the following:
    - 
    - Species del materiale di output
    - _True_ se il processo è computazionale, altrimenti _False_
- * - ````
-   - string
-   - 
-   -
- * - ````
-   - string
-   - 
-   -
- * - ````
-   - string
-   - 
-   -
+
 
 
 .. code-block:: json
