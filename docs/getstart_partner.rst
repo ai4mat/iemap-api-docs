@@ -5,10 +5,11 @@ The IEMAP's REST API needs a metadata JSON file to complete the upload.
 In this section, we describe how to upload data of a computing or experimental process on the IEMAP database. 
 The steps are two:
 
-1. `Create metadata`_
-2. `Upload metadata and data via REST API`_
-.. _Create metadata: https://iemap-api.readthedocs.io/en/latest/getstart_partner.html#create-metadata
-.. _Upload metadata and data via REST API: https://iemap-api.readthedocs.io/en/latest/getstart_partner.html#upload-meta-data-via-rest-api
+1. `Create metadata`__
+2. `Upload metadata and data via REST API`__
+
+__ https://iemap-api.readthedocs.io/en/latest/getstart_partner.html#create-metadata
+__ https://iemap-api.readthedocs.io/en/latest/getstart_partner.html#upload-meta-data-via-rest-api
 
 Create metadata
 ------------
@@ -111,12 +112,13 @@ Upload (meta)data via REST API
 ---------------
 
 Once the metadata JSON file is created, you can upload (meta)data related to one computing or experimental process. 
+
 .. code-block:: shell-session
   IPADDR=https://ai4mat.enea.it/v1
 
 .. note::
-  You need authentication using `this guideline`_.
-  .. _this guideline: https://iemap-api.readthedocs.io/en/latest/apiuser.html#authentication
+  You need authentication using `this guideline`__.
+__ https://iemap-api.readthedocs.io/en/latest/apiuser.html#authentication
 
 1. Upload metadata
 
@@ -139,7 +141,7 @@ Once the metadata JSON file is created, you can upload (meta)data related to one
   }'
 
 .. note::
-  You need repeat the second command for each data file.
+  You need to repeat the second command for each data file.
 
 Running Example
 --------
