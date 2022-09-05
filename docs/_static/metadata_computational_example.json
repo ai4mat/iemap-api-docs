@@ -1,0 +1,29 @@
+{
+    "project":{
+       "name":"Battery Project",
+       "label":"BE"
+    },
+    "process":{
+       "isExperiment":"False",
+       "isSimulation":"True",
+       "parameters":[
+          {
+             "name":"param1",
+             "type":"type 1",
+             "value":45465.9
+          }
+       ],
+        "method":"method1",
+        "agent":{
+            "name":"Orcad",
+            "version":"1.0.5"
+       },
+       "material":{
+          "formula":"CO2"
+       },
+       "properties":{
+        "prop1": 255.89,
+        "prop2": 0.56
+       }
+    }
+ }
