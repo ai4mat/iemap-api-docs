@@ -114,6 +114,7 @@ Upload (meta)data via REST API
 Once the metadata JSON file is created, you can upload (meta)data related to one computing or experimental process. 
 
 .. code-block:: shell-session
+  
   IPADDR=https://ai4mat.enea.it/v1
 
 .. note::
@@ -123,17 +124,20 @@ __ https://iemap-api.readthedocs.io/en/latest/apiuser.html#authentication
 1. Upload metadata
 
 .. code-block:: shell-session
+
   REQUEST=$(curl --location --request POST "$IPADDR/project/add" \
   --data-raw '{ \
   "json": <path/to/metadata.json> \
   }')
 
 .. code-block:: shell-session
+
   ID=echo($REQUEST)
 
 2. Upload data files
 
 .. code-block:: shell-session
+
   curl --location --request POST "$IPADDR/project/add/file" \
   --data-raw '{ \
   "inserted_id": $ID, \
