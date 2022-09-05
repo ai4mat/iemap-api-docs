@@ -114,7 +114,7 @@ Upload (meta)data via REST API
 Once the metadata JSON file is created, you can upload (meta)data related to one computing or experimental process. 
 
 .. code-block:: shell-session
-  
+
   IPADDR=https://ai4mat.enea.it/v1
 
 .. note::
@@ -153,18 +153,26 @@ Running Example
 This section shows you a running example in order to upload your (meta)data on IEMAP's database and repository.
 First of all, the data of both processes are used as examples.
 
+.. raw:: html
 
-<details> <summary>computational process data</summary>
+  <details> <summary>computational process data</summary>
+
+  .. literalinclude:: _static/metadata_computational_example.json
+      :language: json
+  
+  </details>
+
+.. raw:: html
+
+  <details> <summary>experimental process data</summary>
+
+  .. literalinclude:: _static/metadata_experimental_example.json
+      :language: json
+  
+  </details>
+
 .. literalinclude:: _static/metadata_computational_example.json
-    :language: json
- 
-</details>
-
-<details> <summary>experimental process data</summary>
-.. literalinclude:: _static/metadata_experimental_example.json
-    :language: json
- 
-</details>
+      :language: json
 
 Assuming the JSON file name is 'metadata.json', the uploading script can be ran as follow:
 
