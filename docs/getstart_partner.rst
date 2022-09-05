@@ -194,7 +194,7 @@ First of all, the data of both processes are used as examples.
             "properties":{
               "total_energy": -106845.63979092,
               "volume": 1037.2723079868,
-              "formation_energy_per_atom": 0.56
+              "formation_energy_per_atom": -1,654192855
             }
           }
         }
@@ -214,7 +214,7 @@ First of all, the data of both processes are used as examples.
     </pre>
   </details>
 
-A script has been created to simplify uploading (:download:`Upload script` ../script.sh).
+A script has been created to simplify uploading (:download:`Upload script _static/script.sh`).
 
 
 Assuming the JSON file name is 'metadata.json', the uploading script can be ran as follow:
