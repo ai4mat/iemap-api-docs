@@ -214,11 +214,7 @@ First of all, the data of both processes are used as examples.
     </pre>
   </details>
 
-A script has been created to simplify uploading (:download:`Upload script _static/script.sh`).
-
-.. only:: builder_html
-
-   See :download:`this example script _static/script.sh`.
+A script has been created to simplify uploading (:download:`script _static/script.sh`).
 
 
 Assuming the JSON file name is 'metadata.json', the uploading script can be ran as follow:
