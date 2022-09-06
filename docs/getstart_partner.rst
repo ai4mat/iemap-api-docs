@@ -118,7 +118,7 @@ Once the metadata JSON file is created, you can upload (meta)data related to one
   IPADDR=https://ai4mat.enea.it/v1
 
 .. note::
-  You need authentication using `this guideline`__.
+  Authentication is needed (follow `this guideline`__).
 __ https://iemap-api.readthedocs.io/en/latest/apiuser.html#authentication
 
 1. Upload metadata
@@ -216,14 +216,15 @@ First of all, the data of both processes are used as examples.
 
 A script has been created to simplify uploading (:download:`Upload script _static/script.sh`).
 
+.. only:: builder_html
+
+   See :download:`this example script _static/script.sh`.
+
 
 Assuming the JSON file name is 'metadata.json', the uploading script can be ran as follow:
 
 .. code-block:: shell-session
 
-  chmod +x 
+  chmod +x script.sh
 
-
-.. note::
-  You need authentication using `this guideline`__.
-__ https://iemap-api.readthedocs.io/en/latest/apiuser.html#authentication
+  ./script.sh -m metadata.json -f data/* -p properties/*
