@@ -202,6 +202,10 @@ First of all, the data of both processes are used as examples.
     </pre>
   </details>
 
+.. only:: builder_html
+
+   See :download:`json ../_static/metadata_computational_example.json`.
+
 .. raw:: html
 
   <details> <summary>experimental process data</summary>
@@ -224,3 +228,6 @@ Assuming the JSON file name is 'metadata.json', the uploading script can be ran 
   chmod +x script.sh
 
   ./script.sh -m metadata.json -f data/* -p properties/*
+
+.. note::
+  For any issue, you can contact the management team by emailing at: `info@mission-innovation.it <mailto: info@mission-innovation.it>`_.
