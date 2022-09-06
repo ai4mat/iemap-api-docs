@@ -156,8 +156,8 @@ First of all, the data of both processes are used as examples.
 * `computational process data`__
 * `experimental process data`__
 
-__ https://iemap-api.readthedocs.io/en/latest/metadata_computational_example.html
-__ https://iemap-api.readthedocs.io/en/latest/metadata_experimental_example.html
+__ https://iemap-api.readthedocs.io/en/latest/computational_example.html
+__ https://iemap-api.readthedocs.io/en/latest/experimental_example.html
 
 A script has been created to simplify uploading (:download:`script _static/script.sh`).
 
