@@ -24,16 +24,16 @@ Below is a list of the core metadata fields supported by IEMAP:
 * `parameters`__ , list of parameters, input of the process 
 * `properties`__ , list of properties, output of the process 
 
-__ https://iemap-api.readthedocs.io/en/latest/metadata/project.rst
-__ https://iemap-api.readthedocs.io/en/latest/metadata/process.rst
-__ https://iemap-api.readthedocs.io/en/latest/metadata/material.rst
-__ https://iemap-api.readthedocs.io/en/latest/metadata/parameters.rst
-__ https://iemap-api.readthedocs.io/en/latest/metadata/properties.rst 
+__ https://iemap-api.readthedocs.io/en/latest/metadata/project.html
+__ https://iemap-api.readthedocs.io/en/latest/metadata/process.html
+__ https://iemap-api.readthedocs.io/en/latest/metadata/material.html
+__ https://iemap-api.readthedocs.io/en/latest/metadata/parameters.html
+__ https://iemap-api.readthedocs.io/en/latest/metadata/properties.html 
 
 .. note::
   See `here`__ to know the fields list.
 
-__ https://iemap-api.readthedocs.io/en/latest/fields_table.rst
+__ https://iemap-api.readthedocs.io/en/latest/fields_table.html
 
 
 Upload (meta)data via REST API
