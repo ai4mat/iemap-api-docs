@@ -15,97 +15,24 @@ Create metadata
 ------------
 
 The IEMAP's REST API only accepts the metadata with a specific JSON format, so you need to map data into IEMAP's JSON structure.
-The list of the structure's fields is the following:
+Each metadata have to contain the information of a **single** computing or experimental process.
+Below is a list of the core metadata fields supported by IEMAP:
 
-.. list-table::
- :widths: 25 10 10 50 5
- :header-rows: 1
+* `project`__, related project (e.g. Battery for Energy, Solar Panel or Electrolyzers)
+* `process`__, info of the computing or experimental process (code or instrument, method, ...)
+* `material`__, info of material (formula, its structure)
+* `parameters`__, list of parameters, input of the process 
+* `properties`__, list of properties, output of the process 
 
- * - Field name
-   - Type
-   - Description
-   - Required
-   - Choices
- * - ``project.name``
-   - string
-   - Nome Progetto
-   - _True_
-   - ['Energia per le batterie', 'Pannelli fotovoltaici', 'Elettrolizzatori']
- * - ``project.label``
-   - string
-   - Label Progetto
-   - _True_
-   - ['EB', 'PF', 'EE']
- * - ``project.description``
-   - string
-   - Descrizione Progetto
-   - _True_
-   - 
- * - ``process.method``
-   - string
-   - Metodo (computazionale) o tecnica (sperimentale) del processo
-   - _True_
-   - ['dft']
- * - ``process.agent.name``
-   - string
-   - Strumento o codice utilizzato
-   - _True_
-   - 
- * - ``process.agent.version``
-   - string
-   - Versione dello codice o del firmware dello strumento
-   - _True_
-   - 
- * - ``process.isExperiment``
-   - boolean
-   - _True_ se sperimentale, altrimenti _False_
-   - _True_
-   - 
- * - ``process.isSimulation``
-   - boolean
-   - _True_ se computazionale, altrimenti _False_
-   - _True_
-   - 
- * - ``process.material.formula``
-   - string
-   - Formula del composto chimico analizzato
-   - _True_
-   - 
- * - ``process.material.lattice``
-   - object
-   - (a,b,c),(alpha, beta, gamma)
-   - _True_ se il processo è computazionale, altrimenti _False_
-   - 
- * - ``process.material.input.sites``
-   - list
-   - Sites del materiale di input
-   - _True_ se il processo è computazionale, altrimenti _False_
-   - 
- * - ``process.material.input.species``
-   - list
-   - Species del materiale di input
-   - _True_ se il processo è computazionale, altrimenti _False_
-   - 
- * - ``process.material.output.sites``
-   - list
-   - Sites del materiale di output
-   - _True_ se il processo è computazionale, altrimenti _False_
-   - 
- * - ``process.material.output.species``
-   - list
-   - Species del materiale di output
-   - _True_ se il processo è computazionale, altrimenti _False_
-   - 
- * - ``process.parameters``
-   - Object
-   - Dizionario che racchiude i parametri di processo, dove ogni elemento associa il nome del parametro al suo valore.
-   - _False_
-   - 
- * - ``process.properties``
-   - Object
-   - Dizionario che racchiude le proprietà di processo, dove ogni elemento associa il nome della proprietà al suo valore.
-   - _True_ (at least one)
-   - 
+__ https://iemap-api.readthedocs.io/en/latest/metadata/project.rst
+__ https://iemap-api.readthedocs.io/en/latest/metadata/process.rst
+__ https://iemap-api.readthedocs.io/en/latest/metadata/material.rst
+__ https://iemap-api.readthedocs.io/en/latest/metadata/parameters.rst
+__ https://iemap-api.readthedocs.io/en/latest/metadata/properties.rst 
+
+.. note::
+  See `here`__ to know the fields list.
+  __ https://iemap-api.readthedocs.io/en/latest/fields_table.rst
 
 
 Upload (meta)data via REST API
