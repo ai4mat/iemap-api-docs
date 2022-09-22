@@ -1,1 +1,34 @@
-{}
+{
+    "project": {
+    "name": "Battery for Energy",
+    "label": "BE"
+    },
+    "process":{
+		"isExperiment": true,
+		"isSimulation": false,
+		"method": "spin-coating",
+		"agent":{
+			"name": "instrument", 
+			"version": "1.0"
+		}
+	},
+	"material":{
+		"formula": "CH3NH3PbI3"
+    },
+	"parameters": {
+        "precursor materials": ["MAI", "Pbl2"],
+        "precursor details": "freshly prepared ",
+        "antisolvent": "Diethyl Ether",
+        "solvents": "DMF:DMSO (9:1)",
+        "solution details": "1.40 M",
+        "relevant fabrication parameters": "1000 rpm-200rpm/s-10s",
+        "experimental conditions": "deposition in air", 
+        "film appearance": "Shining dark brown film"
+    }, 
+	"properties": {
+        "annealing temperature": 50,
+        "annealing time": 120,
+        "energy gap": 1.60,
+        "refr. Index @500nm": 2.6
+    }
+}
