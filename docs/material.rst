@@ -33,7 +33,7 @@ The *input* and *output* objects have to contain:
    - Description
  * - ``lattice``
    - Object
-   - Lattice
+   - Structure lattice, it contains (a,b,c) and (alpha,beta,gamma).
  * - ``sites``
    - Array
    - List of atoms sites. 
