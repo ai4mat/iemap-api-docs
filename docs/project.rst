@@ -43,3 +43,24 @@ Each data **requires** related project, so the choices are as follows:
  * - 3
    - Materials for Perovskite
    - MPV
+
+.. note::
+  Further project choices are not supported. 
+
+
+Example
+-------
+
+If you need to upload a computing data related to batteries, you have to insert the following metadata:
+
+.. code-block:: json
+  
+  {
+    "project":{
+      "name": "Materials for Batteries",
+      "label": "MB"
+    }
+  }
+
+
+

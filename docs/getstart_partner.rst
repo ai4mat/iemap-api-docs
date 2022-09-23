@@ -18,11 +18,17 @@ The IEMAP's REST API only accepts the metadata with a specific JSON format, so y
 Each metadata have to contain the information of a **single** computing or experimental process.
 Below is a list of the core metadata fields supported by IEMAP:
 
-* :ref:`project` , related project (e.g. Battery for Energy, Solar Panel or Electrolyzers)
-* :ref:`process` , info of the computing or experimental process (code or instrument, method, ...)
-* :ref:`material` , info of material (formula, its structure)
-* :ref:`parameters` , list of parameters, input of the process 
-* :ref:`properties` , list of properties, output of the process 
+* `project`__ , related project (e.g. Battery for Energy, Solar Panel or Electrolyzers)
+* `process`__ , info of the computing or experimental process (code or instrument, method, ...)
+* `material`__ , info of material (formula, its structure)
+* `parameters`__ , list of parameters, input of the process 
+* `properties`__ , list of properties, output of the process 
+
+__ https://iemap-api.readthedocs.io/en/latest/project.html
+__ https://iemap-api.readthedocs.io/en/latest/process.html
+__ https://iemap-api.readthedocs.io/en/latest/material.html
+__ https://iemap-api.readthedocs.io/en/latest/parameters.html
+__ https://iemap-api.readthedocs.io/en/latest/properties.html 
 
 .. note::
   See `here`__ to know the fields list.
