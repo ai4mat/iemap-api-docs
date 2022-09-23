@@ -52,42 +52,42 @@ The list of the structure's fields is the following:
    - _True_ se computazionale, altrimenti _False_
    - _True_
    - 
- * - ``process.material.formula``
+ * - ``material.formula``
    - string
    - Formula del composto chimico analizzato
    - _True_
    - 
- * - ``process.material.lattice``
+ * - ``material.lattice``
    - object
    - (a,b,c),(alpha, beta, gamma)
    - _True_ se il processo è computazionale, altrimenti _False_
    - 
- * - ``process.material.input.sites``
+ * - ``material.input.sites``
    - list
    - Sites del materiale di input
    - _True_ se il processo è computazionale, altrimenti _False_
    - 
- * - ``process.material.input.species``
+ * - ``material.input.species``
    - list
    - Species del materiale di input
    - _True_ se il processo è computazionale, altrimenti _False_
    - 
- * - ``process.material.output.sites``
+ * - ``material.output.sites``
    - list
    - Sites del materiale di output
    - _True_ se il processo è computazionale, altrimenti _False_
    - 
- * - ``process.material.output.species``
+ * - ``material.output.species``
    - list
    - Species del materiale di output
    - _True_ se il processo è computazionale, altrimenti _False_
    - 
- * - ``process.parameters``
+ * - ``parameters``
    - Object
    - Dizionario che racchiude i parametri di processo, dove ogni elemento associa il nome del parametro al suo valore.
    - _False_
    - 
- * - ``process.properties``
+ * - ``properties``
    - Object
    - Dizionario che racchiude le proprietà di processo, dove ogni elemento associa il nome della proprietà al suo valore.
    - _True_ (at least one)
