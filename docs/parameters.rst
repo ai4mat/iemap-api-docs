@@ -136,7 +136,7 @@ If you need to upload a Quantum Espresso parameters, then:
        "ecutrho":640,
        "ecutwfc":80,
        "smearing":"marzari-vanderbilt",
-       "Hubbard_U":3.72,
+       "hubbard_U":3.72,
        "starting_magnetization":0.5
     }
   }
