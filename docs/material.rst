@@ -71,3 +71,36 @@ The *input* and *output* objects have to contain:
 
 .. notes::
     Angstrom unit is supported.
+
+Example
+-------
+
+If you need to upload an experimental process data on 'CH\ :sub:`3`NH\ :sub:`3`PbI\ :sub:`3`' as material, you have to insert the following metadata:
+
+.. code-block:: json
+  
+  {
+    "material":{
+      "formula": "CH3NH3PbI3"
+    }
+  }
+
+If you need to upload a computational process data on 'NaMnO\ :sub:`2`' as material, then:
+
+.. code-block:: json
+  
+  {
+    "material":{
+      "formula": "NaMnO2",
+      "input":{
+        "lattice":{},
+        "species": ["O","O","O","Mn","Mn","Mn","O","O","O","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","Na","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na"],
+        "sites": [[0.13795179349174, -0.24690325664231, 0.23763066813437], [2.5501200061335, 1.4339330853802, 0.27321523160776], [0,0,0]]
+      },
+      "output":{
+        "lattice":{},
+        "species": ["O","O","O","Mn","Mn","Mn","O","O","O","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","Na","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na","O","O","O","Mn","Mn","Mn","O","O","O","Na"],
+        "sites": [[0.13795179349174, -0.24690325664231, 0.23763066813437], [2.5501200061335, 1.4339330853802, 0.27321523160776], [0,0,0]]
+      }
+    }
+  }
