@@ -2,6 +2,7 @@ Fields Table
 ====================
 
 The list of the structure's fields is the following:
+
 .. list-table::
  :widths: 25 10 10 50 5
  :header-rows: 1
