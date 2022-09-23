@@ -30,6 +30,8 @@ __ https://iemap-api.readthedocs.io/en/latest/material.html
 __ https://iemap-api.readthedocs.io/en/latest/parameters.html
 __ https://iemap-api.readthedocs.io/en/latest/properties.html 
 
+To simplify, a summary document was created (:download:`fields supported <_static/fields.xlsx>`).
+
 .. note::
   See `here`__ to know the fields list.
 
