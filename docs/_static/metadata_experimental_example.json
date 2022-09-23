@@ -1,7 +1,7 @@
 {
     "project": {
-    "name": "Battery for Energy",
-    "label": "BE"
+    "name": "Materials for Batteries",
+    "label": "MB"
     },
     "process":{
 		"isExperiment": true,
