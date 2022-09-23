@@ -15,7 +15,7 @@ Create metadata
 ------------
 
 The IEMAP's REST API only accepts the metadata with a specific JSON format, so you need to map data into IEMAP's JSON structure.
-Each metadata have to contain the information of a **single** computing or experimental process.
+Each metadata has to contain the information of one **single** computing or experimental process.
 Below is a list of the core metadata fields supported by IEMAP:
 
 * `project`__ , related project (e.g. Battery for Energy, Solar Panel or Electrolyzers)
