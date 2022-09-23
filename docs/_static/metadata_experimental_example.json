@@ -17,7 +17,7 @@
     },
 	"parameters": {
         "precursor materials": ["MAI", "Pbl2"],
-        "precursor details": "freshly prepared ",
+        "precursor details": "freshly prepared",
         "antisolvent": "Diethyl Ether",
         "solvents": "DMF:DMSO (9:1)",
         "solution details": "1.40 M",

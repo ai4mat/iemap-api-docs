@@ -2,7 +2,7 @@
 Material field
 ====================
 
-The meterial field contains the information related to analyzed material, e.g. formula, composition or structure.
+The material field contains the information related to analyzed material, e.g. formula, composition or structure.
 
 
 .. list-table::

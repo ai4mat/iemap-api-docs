@@ -2,6 +2,12 @@
 Project field
 ====================
 
+IEMAP platform consists of three projects:
+
+* *Materials for Batteries* (MB)
+* *Materials for Electrolyzers* (ME)
+* *Materials for Perovskite* (MPV)
+
 The project field contains related project information, i.e. name and label.
 
 .. list-table::
@@ -17,12 +23,6 @@ The project field contains related project information, i.e. name and label.
  * - ``label``
    - String
    - Project label
-
-IEMAP platform consists of three projects:
-
-* Materials for Batteries (MB)
-* Materials for Electrolyzers (ME)
-* Materials for Perovskite (MPV)
 
 Each data **requires** related project, so the choices are as follows:
 
