@@ -6,7 +6,7 @@ The meterial field contains the information related to analyzed material, e.g. f
 
 
 .. list-table::
- :widths: 5 5 6 10
+ :widths: 5 6 10
  :header-rows: 1
 
  * - Field name
