@@ -59,7 +59,7 @@ The methods supported are:
 Agents
 -------
 
-The methods supported are:
+The agents supported are:
 
 .. list-table::
  :widths: 5 15 
