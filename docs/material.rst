@@ -25,47 +25,19 @@ The meterial field contains the information related to analyzed material, e.g. f
 The *input* and *output* objects have to contain:
 
 .. list-table::
- :widths: 5 5 6 10
+ :widths: 5 6 10
  :header-rows: 1
 
  * - Field name
-   - Subfield name
    - Type
    - Description
  * - ``lattice``
-   - 
-   - Object
-   - Lattice
- * - 
-   - ``a``
-   - Object
-   - Lattice
- * - 
-   - ``b``
-   - Object
-   - Lattice
- * - 
-   - ``c``
-   - Object
-   - Lattice
- * - 
-   - ``alpha``
-   - Object
-   - Lattice
- * - 
-   - ``beta``
-   - Object
-   - Lattice
- * - 
-   - ``gamma``
    - Object
    - Lattice
  * - ``sites``
-   - 
    - Array
    - List of atoms sites. 
  * - ``species``
-   - 
    - Array
    - List of atoms species.
 

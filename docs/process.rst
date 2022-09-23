@@ -6,35 +6,22 @@ Process field
 The process field contains the information related to computational or experimental procedure, e.g. method, code or instrument used.
 
 .. list-table::
- :widths: 5 5 6 10
+ :widths: 5 6 10
  :header-rows: 1
 
  * - Field name
-   - Subfield name
    - Type
    - Description
  * - ``method``
-   - 
    - String
    - Method or Technique
  * - ``agent``
-   -
    - Object
    - Info of code or instrument used (name and version)
- * - 
-   - ``name``
-   - String
-   - Code or instrument name
- * - 
-   - ``version``
-   - String
-   - Code or instrument version (or firmware)
  * - ``isExperimental``
-   - 
    - Boolean
    - *True* if the process is an experiment, *False* otherwise.
  * - ``isSimulation``
-   - 
    - Boolean
    - *True* if the process is a atomic computing, *False* otherwise.
 
