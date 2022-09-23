@@ -47,7 +47,7 @@ The *input* and *output* objects have to contain:
 Example
 -------
 
-If you need to upload an experimental process data on 'CH\ :sub:`3`NH\ :sub:`3`PbI\ :sub:`3`' as material, you have to insert the following metadata:
+If you need to upload an experimental process data on 'CH\ :sub:`3` NH\ :sub:`3` PbI\ :sub:`3`' as material, you have to insert the following metadata:
 
 .. code-block:: json
   
