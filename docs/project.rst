@@ -51,7 +51,7 @@ Each data **requires** related project, so the choices are as follows:
 Example
 -------
 
-If you need to upload a computing data related to batteries, you have to insert the following metadata:
+If you need to upload a process data related to **batteries**, you have to insert the following metadata:
 
 .. code-block:: json
   
@@ -62,5 +62,24 @@ If you need to upload a computing data related to batteries, you have to insert 
     }
   }
 
+If you need to upload a process data related to **electrolyzers**, then:
 
+.. code-block:: json
+  
+  {
+    "project":{
+      "name": "Materials for Electrolyzers",
+      "label": "ME"
+    }
+  }
 
+Otherwise, if you need to upload a process data related to **perovskite**, then:
+
+.. code-block:: json
+  
+  {
+    "project":{
+      "name": "Materials for Perovskite",
+      "label": "MPV"
+    }
+  }
