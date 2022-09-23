@@ -62,7 +62,7 @@ Agents
 The methods supported are:
 
 .. list-table::
- :widths: 10 15 
+ :widths: 5 15 
  :header-rows: 1
 
  * - Agent Type
@@ -102,33 +102,33 @@ The methods supported are:
  * - Instrument
    - X ray Diffractograms  
  * - Instrument
-   - VISCOSIMETER  
+   - Viscosimeter
  * - Instrument
-   - PROBES CONDUCTIMETER  
+   - Probes Conductimeter  
  * - Instrument
-   - SCANNING ELECRTON MICROSCOPY  
+   - Scanning Electron Microscopy  
  * - Instrument
-   - GRAVURE PRINTER  
+   - Gravure printer  
  * - Instrument
-   - BALANCE  
+   - Balance  
  * - Instrument
-   - DENSIMETER  
+   - Densimeter  
  * - Instrument
-   - PH-METER  
+   - PH-meter 
  * - Instrument
-   - THERMOMETER  
+   - Thermometer  
  * - Instrument
    - Hood  
  * - Instrument
-   - lab-glassware  
+   - Lab-glassware  
  * - Instrument
-   - mixer  
+   - Mixer  
  * - Instrument
-   - rotary-evaporator  
+   - Rotary-evaporator  
  * - Instrument
-   - vacuum even  
+   - Vacuum even  
  * - Instrument
-   - glove-bis  
+   - Glove-bis  
  * - Instrument
    - Raman spectrometer LabRam HR Evolution (HORIBA)  
  * - Instrument
