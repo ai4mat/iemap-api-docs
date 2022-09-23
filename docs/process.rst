@@ -6,7 +6,7 @@ Process field
 The process field contains the information related to computational or experimental procedure, e.g. method, code or instrument used.
 
 .. list-table::
- :widths: 5 6 10
+ :widths: 5 5 6 10
  :header-rows: 1
 
  * - Field name
