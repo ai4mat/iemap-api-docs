@@ -1,3 +1,4 @@
+.. _material:
 Material field
 ====================
 

@@ -1,3 +1,4 @@
+.. _project:
 Project field
 ====================
 
