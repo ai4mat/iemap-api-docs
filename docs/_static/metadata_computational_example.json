@@ -64,14 +64,6 @@
           "value": 548.07205081855
       }, 
       {
-          "name": "number_of_atoms", 
-          "value": 48
-      }, 
-      {
-          "name": "number_of_electrons", 
-          "value": 422.0
-      }, 
-      {
           "name": "total_energy", 
           "value": -58264.564356853
       }, 
