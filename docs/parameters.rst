@@ -78,30 +78,12 @@ The computational parameters supported are:
  * - Field name
    - Type
    - Description
- * - ``ibrav``
-   - Integer
-   - ...
- * - ``nspin``
-   - Integer
-   - ...
- * - ``degauss``
-   - Float
-   - ...
- * - ``ecutrho``
-   - Integer
-   - ...
- * - ``ecutwfc``
-   - Integer
-   - ...
- * - ``smearing``
+ * - ``calculation``
    - String
-   - ...
- * - ``hubbard_U``
-   - Float
-   - ...
- * - ``starting_magnetization``
-   - Float
-   - ...
+   - Type of calculation (scf, vc-relax, ...)
+ * - ``exchange_correlation``
+   - String
+   - Exchange correlation, such as 'pbe'.
 
 
 Example
@@ -112,16 +94,40 @@ If you need to upload an experimental process data using precursor materials, so
 .. code-block:: json
   
   {
-    "parameters":{
-        "precursor materials": ["MAI", "Pbl2"],
-        "precursor details": "freshly prepared",
-        "antisolvent": "Diethyl Ether",
-        "solvents": "DMF:DMSO (9:1)",
-        "solution details": "1.40 M",
-        "relevant fabrication parameters": "1000 rpm-200rpm/s-10s",
-        "experimental conditions": "deposition in air", 
-        "film appearance": "Shining dark brown film"
-    }
+    "parameters":[
+      {
+        "name": "precursor materials",
+        "value": ["MAI", "Pbl2"]
+      },
+      {
+        "name": "precursor details",
+        "value": "freshly prepared"
+      },
+      {
+        "name": "antisolvent",
+        "value": "Diethyl Ether"
+      },
+      {
+        "name": "solvents",
+        "value": "DMF:DMSO (9:1)"
+      },
+      {
+        "name": "solution details"
+        "value": "1.40 M"
+      },
+      {
+        "name": "relevant fabrication parameters",
+        "value": "1000 rpm-200rpm/s-10s"
+      },
+      {
+        "name": "experimental conditions",
+        "value": "deposition in air"
+      },
+      {
+        "name": "film appearance",
+        "value": "Shining dark brown film"
+      }
+    ]
   }
 
 If you need to upload a Quantum Espresso parameters, then:
@@ -130,13 +136,7 @@ If you need to upload a Quantum Espresso parameters, then:
   
   {
     "parameters":{
-       "ibrav": 0,
-       "nspin":2,
-       "degauss":0.01,
-       "ecutrho":640,
-       "ecutwfc":80,
-       "smearing":"marzari-vanderbilt",
-       "hubbard_U":3.72,
-       "starting_magnetization":0.5
+       "calculation": "vc-relax",
+       "exchange_correlation": "pbe"
     }
   }
