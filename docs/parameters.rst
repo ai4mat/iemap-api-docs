@@ -96,11 +96,11 @@ If you need to upload an experimental process data using precursor materials, so
   {
     "parameters":[
       {
-        "name": "precursor materials",
+        "name": "precursor_materials",
         "value": ["MAI", "Pbl2"]
       },
       {
-        "name": "precursor details",
+        "name": "precursor_details",
         "value": "freshly prepared"
       },
       {
@@ -112,19 +112,19 @@ If you need to upload an experimental process data using precursor materials, so
         "value": "DMF:DMSO (9:1)"
       },
       {
-        "name": "solution details"
-        "value": "1.40 M"
+        "name": "solution details",
+        "value": 1.40
       },
       {
-        "name": "relevant fabrication parameters",
+        "name": "relevant_fabrication_parameters",
         "value": "1000 rpm-200rpm/s-10s"
       },
       {
-        "name": "experimental conditions",
+        "name": "experimental_conditions",
         "value": "deposition in air"
       },
       {
-        "name": "film appearance",
+        "name": "film_appearance",
         "value": "Shining dark brown film"
       }
     ]

@@ -5,7 +5,6 @@
     },
     "process":{
 		"isExperiment": true,
-		"isSimulation": false,
 		"method": "spin-coating",
 		"agent":{
 			"name": "instrument", 
@@ -15,20 +14,54 @@
 	"material":{
 		"formula": "CH3NH3PbI3"
     },
-	"parameters": {
-        "precursor materials": ["MAI", "Pbl2"],
-        "precursor details": "freshly prepared",
-        "antisolvent": "Diethyl Ether",
-        "solvents": "DMF:DMSO (9:1)",
-        "solution details": "1.40 M",
-        "relevant fabrication parameters": "1000 rpm-200rpm/s-10s",
-        "experimental conditions": "deposition in air", 
-        "film appearance": "Shining dark brown film"
-    }, 
-	"properties": {
-        "annealing temperature": 50,
-        "annealing time": 120,
-        "energy gap": 1.60,
-        "refr. Index @500nm": 2.6
-    }
+    "parameters":
+    [
+        {
+          "name": "precursor materials",
+          "value": ["MAI", "Pbl2"]
+        },
+        {
+          "name": "precursor details",
+          "value": "freshly prepared"
+        },
+        {
+          "name": "antisolvent",
+          "value": "Diethyl Ether"
+        },
+        {
+          "name": "solvents",
+          "value": "DMF:DMSO (9:1)"
+        },
+        {
+          "name": "solution_details",
+          "value": 1.40
+        },
+        {
+          "name": "relevant_fabrication_parameters",
+          "value": "1000 rpm-200rpm/s-10s"
+        },
+        {
+          "name": "experimental_conditions",
+          "value": "deposition in air"
+        },
+        {
+          "name": "film_appearance",
+          "value": "Shining dark brown film"
+        }
+    ], 
+    "properties": 
+    [
+      {
+        "name": "annealing_temperature",
+        "value": 50
+      },
+      {
+        "name": "annealing_time",
+        "value": 120
+      },
+      {
+        "name": "energy_gap",
+        "value": 1.60
+      }
+    ]
 }
