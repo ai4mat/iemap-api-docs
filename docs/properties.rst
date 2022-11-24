@@ -19,7 +19,7 @@ The experimental properties supported are:
  * - ``cte``
    - Float
    - Coefficient of thermal expansion (°C\ :sup:`-1`)
- * - ``young module``
+ * - ``young_module``
    - Float
    - Young's modulus (dyne/cm\ :sup:`2`)
  * - ``trasmittance``
@@ -34,7 +34,7 @@ The experimental properties supported are:
  * - ``resistivity``
    - Float
    - Resistivity in (ohm)
- * - ``plasma characteristics``
+ * - ``plasma_characteristics``
    - Array of Float
    - (I,V,W)
  * - ``weight``
@@ -43,43 +43,43 @@ The experimental properties supported are:
  * - ``density``
    - Float
    - Density in (g/cm\ :sup:`3`)
- * - ``corona treatment``
+ * - ``corona_treatment``
    - Float
    - Corona treatment in (W)
  * - ``viscosity``
    - Float
    - Viscosity in (mPas)
- * - ``layer conductivity``
+ * - ``layer_conductivity``
    - Float
    - Layer conductivity in (S/cm\ :sup:`2`)
  * - ``purity``
    - Float
    - Purity in (wt.%)
- * - ``ionic conductivity``
+ * - ``ionic_conductivity``
    - Float
    - Ionic conductivity in (mS cm\ :sup:`2`)
- * - ``thermal stability``
+ * - ``thermal_stability``
    - Float
    - Thermal stability in (°C)
- * - ``electrochemical stability``
+ * - ``electrochemical_stability``
    - Float
    - Electrochemical stability in (V)
- * - ``photoluminescence quantum yield``
+ * - ``photoluminescence_quantum yield``
    - Float
    - Photoluminescence quantum yield in (%)
- * - ``raman analysis``
+ * - ``raman_analysis``
    - Float Bi-dimensional
    - Chemical bonds/Intensity of ligh as a function of Raman shift
- * - ``ftir analysis``
+ * - ``ftir_analysis``
    - Float Bi-dimensional
    - Chemical bonds/intensity of ligh as a function of light frequency
- * - ``x-ray diffraction``
+ * - ``x-ray_diffraction``
    - Float Bi-dimensional
    - Semi-quantitative recognition of crystallographic phases and crystallite size/Intensity as a function of the diffracted angle
  * - ``afm``
    - Float Bi-dimensional
    - Surface morphology/ Height profile as a function of the position
- * - ``dinamic light scatytering``
+ * - ``dinamic_light_scatytering``
    - Float Bi-dimensional
    - Particle size dimension distribution/ Number of particles as a function of particle size 
 
@@ -96,16 +96,16 @@ The computational properties supported are:
  * - Field name
    - Type
    - Description
- * - ``band gap``
+ * - ``energy_gap``
    - Float
-   - Band gap in (eV)
+   - Energy gap in (eV)
  * - ``total_energy``
    - Float
    - Total energy in (eV)
- * - ``formation_energy``
+ * - ``formation_energy_per_atom``
    - Float
    - Formation energy in (eV)
- * - ``redox potential``
+ * - ``redox_potential``
    - Float
    - Redox (intercalation) potential in (V)
  * - ``volume``
@@ -121,11 +121,20 @@ If you need to upload an experimental process data with energy gap, annealing te
 .. code-block:: json
   
   {
-    "properties": {
-        "annealing temperature": 50,
-        "annealing time": 120,
-        "energy gap": 1.60
-    }
+    "properties": [
+      {
+        "name": "annealing_temperature",
+        "value": 50
+      },
+      {
+        "name": "annealing_time",
+        "value": 120
+      },
+      {
+        "name": "energy_gap",
+        "value": 1.60
+      }
+    ]
   }
 
 If you need to upload a Quantum Espresso properties, then:
@@ -133,9 +142,18 @@ If you need to upload a Quantum Espresso properties, then:
 .. code-block:: json
   
   {
-    "properties":{
-     "total_energy": -106845.63979092,
-     "volume": 1037.2723079868,
-     "formation_energy_per_atom": -1.654192855
-   }
+    "properties":[
+      {
+        "name": "total_energy",
+        "value": -106845.63979092
+      },
+      {
+        "name": "volume",
+        "value": 1037.2723079868
+      },
+      {
+        "name": "formation_energy_per_atom",
+        "value": -1.654192855
+      }
+    ]
   }
