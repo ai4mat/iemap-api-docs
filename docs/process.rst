@@ -21,9 +21,6 @@ The process field contains the information related to computational or experimen
  * - ``isExperimental``
    - Boolean
    - *True* if the process is an experiment, *False* otherwise.
- * - ``isSimulation``
-   - Boolean
-   - *True* if the process is a atomic computing, *False* otherwise.
 
 Methods
 -------
@@ -170,8 +167,7 @@ If you need to upload a computational process data that has performed a dft calc
         "name": "Quantum Espresso",
         "version": "6.7"
       },
-      "isExperimental": false,
-      "isSimulation": true
+      "isExperimental": false
     }
   }
 
@@ -186,7 +182,6 @@ If you need to upload an experimental process data that has analyzed a spin coat
         "name": "Spectrophotometer Perkin Elmer lambda 900",
         "version": ""
       },
-      "isExperimental": true,
-      "isSimulation": false
+      "isExperimental": true
     }
   }
