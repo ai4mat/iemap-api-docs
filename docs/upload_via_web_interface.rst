@@ -12,13 +12,12 @@ __ https://ai4mat.enea.it/dashboard/
 __ https://ai4mat.enea.it/dashboard/
 
 
-Once logged in, you will see a web page like the following:
+Once logged in, you have to upload the metadata file (step n°1) and related data files (step n°2) for each process.
 
 .. image:: _static/screencapture-ai4mat-enea-it-upload.png
   :width: 600
   :alt: Alternative text
 
-For each process, you have to cyclically upload the metadata file (step n°1) and related data files (step n°2).
 
 Finally, you should check the uploading using the `Query DB` web page and selecting **Your project**.
 
