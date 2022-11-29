@@ -23,6 +23,8 @@ Then the login is required using __username__ and __password__ via __iemap__ mod
   > from iemap import IEMAP
   
   > api = IEMAP( usr, pwd)
+  > # login 
+  > api.login()
 
 
 1. **Upload metadata**
