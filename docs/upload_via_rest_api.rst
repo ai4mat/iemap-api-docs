@@ -29,18 +29,18 @@ Then the login is required using user name and password via iemap module.
 
 .. code-block:: python
 
-  api.save()
+  > api.save("path/to/metadata.json")
 
 
 1. **Upload data files**
 
 .. code-block:: python
 
-  curl --location --request POST "$IPADDR/project/add/file" \
-  --data-raw '{ \
-  "inserted_id": '$ID', \
-  "file": <path/to/datafile> \
-  }'
+  > files = ["path/to/datafile.csv", "path/to/datafile.in", ...]
+
+.. code-block:: python
+
+  > api.save_project_files(files)
 
 .. note::
   You need to repeat the second command for each data file.
