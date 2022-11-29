@@ -52,7 +52,7 @@ Then the login is required using *username* and *password* via **iemap** module.
 Running Example
 --------
 
-A Python notebook has been created to simplify uploading (:download:`code <_static/code.zip>`).
+A Python notebook has been created to simplify uploading (:download:`notebook <_static/iemap_notebook.ipynb>`).
 
 .. note::
   For any issue, you can contact the management team by emailing at: `info@mission-innovation.it <mailto: info@mission-innovation.it>`_.
