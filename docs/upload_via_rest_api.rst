@@ -16,7 +16,7 @@ You have to install the environment.
 
   pip install iemap
 
-Then the login is required using user name and password via iemap module.
+Then the login is required using __username__ and __password__ via __iemap__ module.
 
 .. code-block:: python
 
@@ -32,7 +32,7 @@ Then the login is required using user name and password via iemap module.
   > api.save("path/to/metadata.json")
 
 
-1. **Upload data files**
+2. **Upload data files**
 
 .. code-block:: python
 
@@ -43,7 +43,7 @@ Then the login is required using user name and password via iemap module.
   > api.save_project_files(files)
 
 .. note::
-  You need to repeat the second command for each data file.
+  You need to **repeat from step 1** for each process.
 
 
 Running Example
@@ -58,7 +58,7 @@ First of all, the data of both processes are used as examples.
 __ https://iemap-api.readthedocs.io/en/latest/computational_example.html
 __ https://iemap-api.readthedocs.io/en/latest/experimental_example.html
 
-A script has been created to simplify uploading (:download:`script <_static/script.sh>`).
+A Python notebook has been created to simplify uploading (:download:`notebook <_static/script.sh>`).
 
 Assuming the JSON file name is 'metadata.json', the uploading script can be ran as follow:
 
