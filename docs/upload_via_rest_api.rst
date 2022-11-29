@@ -21,8 +21,9 @@ Then the login is required using __username__ and __password__ via __iemap__ mod
 .. code-block:: python
 
   from iemap import IEMAP
-  
-  api = IEMAP( usr, pwd)
+
+  # usr is the user's email
+  api = IEMAP(usr, pwd)
   # login 
   api.login()
 
@@ -51,7 +52,7 @@ Then the login is required using __username__ and __password__ via __iemap__ mod
 Running Example
 --------
 
-A Python notebook has been created to simplify uploading (:download:`notebook <_static/script.sh>`).
+A Python notebook has been created to simplify uploading (:download:`code <_static/code.zip>`).
 
 .. note::
   For any issue, you can contact the management team by emailing at: `info@mission-innovation.it <mailto: info@mission-innovation.it>`_.
