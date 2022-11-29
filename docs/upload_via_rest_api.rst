@@ -8,30 +8,34 @@ Once you made the metadata file, you can upload the files by following steps.
 
 __ https://ai4mat.enea.it/dashboard/
 
-0. Install environment
+0. Init
 
-.. code-block:: python
+You have to install the environment.
+.. code-block:: console
 
   pip install iemap
 
+Then the login is required using user name and password via iemap module.
 .. code-block:: python
+
+  > from iemap import IEMAP
+  
+  > api = IEMAP( usr, pwd)
+
 
 1. Upload metadata
 
-.. code-block:: console
+.. code-block:: python
 
   REQUEST=$(curl --location --request POST "$IPADDR/project/add" \
   --data-raw '{ \
   "json": <path/to/metadata.json> \
   }')
 
-.. code-block:: console
 
-  ID=echo($REQUEST)
+1. Upload data files
 
-2. Upload data files
-
-.. code-block:: console
+.. code-block:: python
 
   curl --location --request POST "$IPADDR/project/add/file" \
   --data-raw '{ \
