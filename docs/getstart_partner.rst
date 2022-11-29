@@ -37,6 +37,13 @@ To simplify, a summary document was created (:download:`fields supported <_stati
 
 __ https://iemap-api.readthedocs.io/en/latest/fields_table.html
 
+We provide two process examples, one computational and one experimental:
+
+* `computational process data`__
+* `experimental process data`__
+
+__ https://iemap-api.readthedocs.io/en/latest/computational_example.html
+__ https://iemap-api.readthedocs.io/en/latest/experimental_example.html
 
 Upload (meta)data files
 ---------------
@@ -54,30 +61,6 @@ __ https://iemap-api.readthedocs.io/en/latest/upload_via_rest_api.html
 .. note::
   Authentication is required (follow `this guideline`__).
 __ https://iemap-api.readthedocs.io/en/latest/apiuser.html#authentication
-
-
-
-Running Example
---------
-
-This section shows you a running example in order to upload your (meta)data on IEMAP's database and repository.
-First of all, the data of both processes are used as examples.
-
-* `computational process data`__
-* `experimental process data`__
-
-__ https://iemap-api.readthedocs.io/en/latest/computational_example.html
-__ https://iemap-api.readthedocs.io/en/latest/experimental_example.html
-
-A script has been created to simplify uploading (:download:`script <_static/script.sh>`).
-
-Assuming the JSON file name is 'metadata.json', the uploading script can be ran as follow:
-
-.. code-block:: console
-
-  chmod +x script.sh
-
-  ./script.sh -m metadata.json -f data/* -p properties/*
 
 .. note::
   For any issue, you can contact the management team by emailing at: `info@mission-innovation.it <mailto: info@mission-innovation.it>`_.
