@@ -46,7 +46,7 @@ Then the login is required using *username* and *password* via **iemap** module.
   api.save_project_files(project_files = files)
 
 .. note::
-  You need to **repeat from step 1** for each process.
+  You **must repeat** step n.1 and n.2 for each process.
 
 
 Running Example
