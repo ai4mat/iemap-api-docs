@@ -16,7 +16,7 @@ You have to install the environment.
 
   $ pip install iemap
 
-Then the login is required using __username__ and __password__ via __iemap__ module.
+Then the login is required using *username* and *password* via **iemap** module.
 
 .. code-block:: python
 
