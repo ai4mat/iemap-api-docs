@@ -6,10 +6,10 @@ In this section, we describe how to upload data of a computing or experimental p
 The steps are two:
 
 1. `Create metadata`__
-2. `Upload metadata and data via REST API`__
+2. `Upload metadata and data files`__
 
 __ https://iemap-api.readthedocs.io/en/latest/getstart_partner.html#create-metadata
-__ https://iemap-api.readthedocs.io/en/latest/getstart_partner.html#upload-meta-data-via-rest-api
+__ https://iemap-api.readthedocs.io/en/latest/getstart_partner.html#upload-meta-data-files
 
 Create metadata
 ------------
