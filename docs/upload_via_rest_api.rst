@@ -8,7 +8,7 @@ Once you made the metadata file, you can upload the files by following steps.
 
 __ https://ai4mat.enea.it/dashboard/
 
-0. **Init**
+**0. Init**
 
 You have to install the environment.
 
@@ -28,14 +28,14 @@ Then the login is required using *username* and *password* via **iemap** module.
   api.login()
 
 
-1. **Upload metadata**
+**1. Upload metadata**
 
 .. code-block:: python
 
   api.save(metadata = "path/to/metadata.json")
 
 
-2. **Upload data files**
+**2. Upload data files**
 
 .. code-block:: python
 
