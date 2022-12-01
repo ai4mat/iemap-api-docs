@@ -61,5 +61,7 @@ __ https://iemap-api.readthedocs.io/en/latest/upload_via_rest_api.html
 .. note::
   The registration is required. Follow the `guide video`__ (main page) if you didn't already.
 
+__ https://ai4mat.enea.it/dashboard/
+
 .. note::
   For any issue, you can contact the management team by emailing at: `info@mission-innovation.it <mailto: info@mission-innovation.it>`_.
