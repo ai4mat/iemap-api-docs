@@ -52,7 +52,10 @@ Then the login is required using *username* and *password* via **iemap** module.
 Running Example
 --------
 
-A Python notebook has been created as tutorial (:download:`notebook <_static/iemap_notebook.ipynb>`).
+A Jupyter notebook has been created as tutorial (:download:`notebook <_static/iemap_notebook.ipynb>`).
+The Jupyter notebook is available on `Google Colab/Drive`_ too.
+
+__ https://drive.google.com/file/d/1mUaBIm1lSWbbKlPgmpB-KmZin6zXAJqB/view?usp=sharing
 
 .. note::
   For any issue, you can contact the management team by emailing at: `info@mission-innovation.it <mailto: info@mission-innovation.it>`_.
