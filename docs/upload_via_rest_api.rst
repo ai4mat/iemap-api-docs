@@ -53,6 +53,7 @@ Running Example
 --------
 
 A Jupyter notebook has been created as tutorial (:download:`notebook <_static/iemap_notebook.ipynb>`).
+
 The Jupyter notebook is available on `Google Colab/Drive`__ .
 
 __ https://drive.google.com/file/d/1mUaBIm1lSWbbKlPgmpB-KmZin6zXAJqB/view?usp=sharing
