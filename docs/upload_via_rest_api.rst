@@ -56,7 +56,7 @@ A Jupyter notebook has been created as tutorial (:download:`notebook <_static/ie
 
 The Jupyter notebook is available on `Google Colab/Drive`__ .
 
-__ https://drive.google.com/file/d/1mUaBIm1lSWbbKlPgmpB-KmZin6zXAJqB/view?usp=sharing
+__ https://colab.research.google.com/drive/1rdTd3A5fWUygTGIqwqC1Ug164SKYKFyJ?usp=sharing
 
 .. note::
   For any issue, you can contact the management team by emailing at: `info@mission-innovation.it <mailto: info@mission-innovation.it>`_.
